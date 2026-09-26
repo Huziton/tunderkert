@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tündérkert Családi Bölcsőde | Szeretetteljes és biztonságos környezet</title>
+<meta name="description" content="A Tündérkert Családi Bölcsőde családias, szeretetteljes és biztonságos környezetet biztosít a kisgyermekek számára. Ismerd meg mindennapjainkat, szemléletünket és vedd fel velünk a kapcsolatot.">
+<meta name="robots" content="index, follow">
+<!-- TODO: canonical URL cseréje az éles domainre, amint ismert -->
+<!-- <link rel="canonical" href="https://www.PELDA-DOMAIN.hu/"> -->
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tündérkert Családi Bölcsőde">
+<meta property="og:title" content="Tündérkert Családi Bölcsőde | Szeretetteljes és biztonságos környezet">
+<meta property="og:description" content="Családias, szeretetteljes és biztonságos környezet a kisgyermekek számára — ismerd meg a Tündérkertet.">
+<meta property="og:image" content="assets/fairy/tunderkert-fairy.png">
+<meta property="og:locale" content="hu_HU">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/logo/favicon.ico" sizes="any">
+<link rel="icon" href="assets/logo/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/logo/favicon-180.png">
+<link rel="manifest" href="site.webmanifest">
+<meta name="theme-color" content="#FFF9F2">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Quicksand:wght@400;500;600;700&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ Inline SVG sprite (decorative motifs) ============ -->
+<svg style="position:absolute;width:0;height:0;overflow:hidden" aria-hidden="true" focusable="false">
+<defs>
+<symbol id="leaf-1" viewBox="0 0 100 60">
+  <path d="M4 30 C 20 4, 60 2, 96 16 C 74 20, 56 30, 46 52 C 30 40, 14 36, 4 30 Z" fill="currentColor"/>
+  <path d="M8 29 C 34 24, 62 24, 92 17" fill="none" stroke="rgba(255,255,255,.45)" stroke-width="1.6" stroke-linecap="round"/>
+</symbol>
+<symbol id="leaf-2" viewBox="0 0 60 100">
+  <path d="M30 4 C 54 22, 58 60, 44 96 C 38 76, 26 62, 6 50 C 14 30, 20 14, 30 4 Z" fill="currentColor"/>
+  <path d="M29 10 C 33 36, 33 62, 42 90" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="1.6" stroke-linecap="round"/>
+</symbol>
+<symbol id="branch" viewBox="0 0 220 90">
+  <path d="M4 70 C 50 90, 90 40, 130 46 C 160 50, 180 28, 214 22" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+  <use href="#leaf-1" x="8" y="42" width="34" height="20" class="decor-leaf-accent"/>
+  <use href="#leaf-1" x="58" y="8" width="30" height="18"/>
+  <use href="#leaf-1" x="118" y="30" width="30" height="18" class="decor-leaf-accent"/>
+  <use href="#leaf-1" x="168" y="2" width="26" height="16"/>
+</symbol>
+<symbol id="daisy" viewBox="0 0 60 60">
+  <g fill="#ffffff" stroke="#F0D9C4" stroke-width="1">
+    <ellipse cx="30" cy="14" rx="7" ry="12"/>
+    <ellipse cx="30" cy="46" rx="7" ry="12"/>
+    <ellipse cx="14" cy="30" rx="12" ry="7"/>
+    <ellipse cx="46" cy="30" rx="12" ry="7"/>
+    <ellipse cx="18.5" cy="18.5" rx="7" ry="11" transform="rotate(-45 18.5 18.5)"/>
+    <ellipse cx="41.5" cy="18.5" rx="7" ry="11" transform="rotate(45 41.5 18.5)"/>
+    <ellipse cx="18.5" cy="41.5" rx="7" ry="11" transform="rotate(45 18.5 41.5)"/>
+    <ellipse cx="41.5" cy="41.5" rx="7" ry="11" transform="rotate(-45 41.5 41.5)"/>
+  </g>
+  <circle cx="30" cy="30" r="8" fill="#F2C265"/>
+</symbol>
+<symbol id="blossom" viewBox="0 0 40 40">
+  <g fill="currentColor">
+    <circle cx="20" cy="9" r="7"/><circle cx="31" cy="20" r="7"/>
+    <circle cx="20" cy="31" r="7"/><circle cx="9" cy="20" r="7"/>
+  </g>
+  <circle cx="20" cy="20" r="5" fill="#F2C265"/>
+</symbol>
+<symbol id="butterfly" viewBox="0 0 100 80">
+  <path d="M50 14 C 40 -4, 8 0, 6 22 C 4 40, 26 42, 48 30 Z" fill="currentColor" opacity=".9"/>
+  <path d="M50 14 C 60 -4, 92 0, 94 22 C 96 40, 74 42, 52 30 Z" fill="currentColor" opacity=".9"/>
+  <path d="M50 32 C 42 40, 20 46, 18 58 C 16 70, 34 72, 48 56 Z" fill="currentColor" opacity=".65"/>
+  <path d="M50 32 C 58 40, 80 46, 82 58 C 84 70, 66 72, 52 56 Z" fill="currentColor" opacity=".65"/>
+  <path d="M50 12 L50 60" stroke="#5B7A5E" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M50 14 C 46 8, 40 6, 36 8" fill="none" stroke="#5B7A5E" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M50 14 C 54 8, 60 6, 64 8" fill="none" stroke="#5B7A5E" stroke-width="1.6" stroke-linecap="round"/>
+</symbol>
+<symbol id="heart-line" viewBox="0 0 40 36">
+  <path d="M20 33 C 2 20, 2 6, 13 3 C 18 1.5, 20 6, 20 9 C 20 6, 22 1.5, 27 3 C 38 6, 38 20, 20 33 Z"
+        fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+</symbol>
+<symbol id="swirl" viewBox="0 0 160 60">
+  <path d="M4 30 C 30 4, 46 4, 58 20 C 68 34, 84 34, 90 20 C 96 8, 112 6, 122 18 C 130 28, 144 26, 156 12"
+        fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+  <use href="#leaf-1" x="14" y="6" width="22" height="14"/>
+  <use href="#leaf-1" x="96" y="4" width="20" height="13" class="decor-leaf-accent"/>
+  <use href="#blossom" x="56" y="4" width="16" height="16"/>
+</symbol>
+<symbol id="sparkle" viewBox="0 0 40 40">
+  <path d="M20 2 C 21 14, 26 19, 38 20 C 26 21, 21 26, 20 38 C 19 26, 14 21, 2 20 C 14 19, 19 14, 20 2 Z" fill="currentColor"/>
+</symbol>
+<symbol id="wing-mark" viewBox="0 0 120 90">
+  <path d="M60 46 C 48 10, 4 6, 2 34 C 0 58, 34 62, 60 46 Z" fill="none" stroke="currentColor" stroke-width="3"/>
+  <path d="M60 46 C 72 10, 116 6, 118 34 C 120 58, 86 62, 60 46 Z" fill="none" stroke="currentColor" stroke-width="3"/>
+  <path d="M60 46 C 52 60, 30 66, 28 78" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M60 46 C 68 60, 90 66, 92 78" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+  <use href="#blossom" x="46" y="34" width="28" height="28"/>
+</symbol>
+<symbol id="icon-home" viewBox="0 0 48 48"><path d="M8 22 L24 9 L40 22 V40 H29 V29 H19 V40 H8 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></symbol>
+<symbol id="icon-shield" viewBox="0 0 48 48"><path d="M24 6 L40 12 V22 C40 33 33 40 24 43 C15 40 8 33 8 22 V12 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M17 24 L22 29 L32 18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="icon-heart" viewBox="0 0 48 48"><path d="M24 40 C 4 27, 4 12, 15 8 C 21 6, 24 12, 24 16 C 24 12, 27 6, 33 8 C 44 12, 44 27, 24 40 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></symbol>
+<symbol id="icon-seed" viewBox="0 0 48 48"><path d="M24 42 V22" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M24 22 C 24 10 14 8 8 8 C 8 18 12 24 24 22 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 28 C 24 18 32 14 40 14 C 40 24 34 32 24 28 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></symbol>
+<symbol id="icon-play" viewBox="0 0 48 48"><circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M20 17 L31 24 L20 31 Z" fill="currentColor"/></symbol>
+<symbol id="icon-meal" viewBox="0 0 48 48"><path d="M14 6 V22 M10 6 V16 C10 19 14 19 14 16 M18 6 V16 C18 19 14 19 14 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 22 V42" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M34 6 C 28 6 28 16 34 20 V42" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="icon-sleep" viewBox="0 0 48 48"><path d="M30 8 C 20 8 13 16 13 26 C 13 36 21 43 31 41 C 24 38 19 31 19 24 C 19 17 23 11 30 8 Z" fill="currentColor"/></symbol>
+<symbol id="icon-run" viewBox="0 0 48 48"><circle cx="27" cy="9" r="4" fill="currentColor"/><path d="M18 42 L24 30 L18 24 L22 14 M24 30 L33 34 L38 42 M22 14 L31 16 L34 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="icon-paint" viewBox="0 0 48 48"><path d="M24 6 C 12 6 6 15 6 24 C 6 30 10 32 14 32 C 18 32 18 28 22 28 C 27 28 26 34 31 34 C 38 34 42 28 42 22 C 42 12 34 6 24 6 Z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><circle cx="16" cy="18" r="2.2" fill="currentColor"/><circle cx="24" cy="14" r="2.2" fill="currentColor"/><circle cx="32" cy="18" r="2.2" fill="currentColor"/></symbol>
+<symbol id="icon-users" viewBox="0 0 48 48"><circle cx="17" cy="16" r="6" fill="none" stroke="currentColor" stroke-width="2.3"/><circle cx="32" cy="18" r="5" fill="none" stroke="currentColor" stroke-width="2.3"/><path d="M6 40 C 6 30 11 26 17 26 C 23 26 28 30 28 40" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/><path d="M28 40 C 28 32 31 28 36 28 C 40 28 43 33 43 40" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></symbol>
+<symbol id="icon-clock" viewBox="0 0 48 48"><circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M24 14 V24 L32 29" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="icon-note" viewBox="0 0 48 48"><path d="M12 6 H36 V38 L30 44 H12 Z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="M18 16 H30 M18 24 H30 M18 32 H24" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/></symbol>
+<symbol id="icon-basket" viewBox="0 0 48 48"><path d="M8 18 H40 L36 40 H12 Z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="M16 18 C 16 10 20 6 24 6 C 28 6 32 10 32 18" fill="none" stroke="currentColor" stroke-width="2.3"/></symbol>
+<symbol id="icon-chat" viewBox="0 0 48 48"><path d="M6 10 H42 V32 H20 L10 40 V32 H6 Z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/></symbol>
+<symbol id="icon-phone" viewBox="0 0 48 48"><path d="M14 6 C 12 6 10 8 10 10 C 10 28 20 38 38 38 C 40 38 42 36 42 34 V29 L32 25 L28 30 C 23 27 21 25 18 20 L23 16 L19 6 Z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/></symbol>
+<symbol id="icon-mail" viewBox="0 0 48 48"><rect x="6" y="10" width="36" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="2.3"/><path d="M8 13 L24 27 L40 13" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="icon-pin" viewBox="0 0 48 48"><path d="M24 44 C 24 44 38 30 38 19 C 38 11 32 5 24 5 C 16 5 10 11 10 19 C 10 30 24 44 24 44 Z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><circle cx="24" cy="19" r="5" fill="none" stroke="currentColor" stroke-width="2.2"/></symbol>
+<symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M5 12 H19 M13 6 L19 12 L13 18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="icon-plus" viewBox="0 0 24 24"><path d="M12 5 V19 M5 12 H19" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+<symbol id="icon-zoom" viewBox="0 0 24 24"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15 15 L20.5 20.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M10 7 V13 M7 10 H13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol><clipPath id="heroBlobClip" clipPathUnits="objectBoundingBox">
+  <path d="M 0.3000,0.0200 C 0.3900,0.0033 0.5767,-0.0233 0.6800,0.0000 C 0.7833,0.0233 0.8683,0.0900 0.9200,0.1600 C 0.9717,0.2300 0.9867,0.3400 0.9900,0.4200 C 0.9933,0.5000 0.9717,0.5800 0.9400,0.6400 C 0.9083,0.7000 0.8600,0.7400 0.8000,0.7800 C 0.7400,0.8200 0.6400,0.8433 0.5800,0.8800 C 0.5200,0.9167 0.4867,0.9967 0.4400,1.0000 C 0.3933,1.0033 0.3367,0.9400 0.3000,0.9000 C 0.2633,0.8600 0.2617,0.8100 0.2200,0.7600 C 0.1783,0.7100 0.0833,0.6700 0.0500,0.6000 C 0.0167,0.5300 0.0050,0.4233 0.0200,0.3400 C 0.0350,0.2567 0.0933,0.1533 0.1400,0.1000 C 0.1867,0.0467 0.2100,0.0367 0.3000,0.0200 Z"/>
+</clipPath>
+</defs>
+</svg>
+
+<a class="skip-link" href="#main-content">Ugrás a tartalomhoz</a>
+
+<!-- ============ Intro reveal (first visit only) ============ -->
+<div class="intro-overlay" aria-hidden="true">
+  <img src="assets/logo/tunderkert-logo.webp" alt="" width="240" height="72" fetchpriority="high">
+</div>
+
+<!-- ============ Header ============ -->
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a href="#kezdolap" class="site-logo" aria-label="Tündérkert Családi Bölcsőde — kezdőlap">
+      <img src="assets/logo/tunderkert-logo.webp" alt="Tündérkert Családi Bölcsőde" width="300" height="89">
+    </a>
+    <nav class="main-nav" aria-label="Fő navigáció">
+      <ul class="main-nav__list">
+        <li><a class="main-nav__link" href="#kezdolap">Kezdőlap</a></li>
+        <li><a class="main-nav__link" href="#rolunk">Rólunk</a></li>
+        <li><a class="main-nav__link" href="#mindennapjaink">Mindennapjaink</a></li>
+        <li><a class="main-nav__link" href="#galeria">Galéria</a></li>
+        <li><a class="main-nav__link" href="#hasznos-informaciok">Hasznos információk</a></li>
+        <li><a class="main-nav__link" href="#kapcsolat">Kapcsolat</a></li>
+      </ul>
+      <a href="#kapcsolat" class="btn btn--primary header-cta">Érdeklődöm</a>
+    </nav>
+    <button class="hamburger" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menü megnyitása">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobil navigáció">
+  <ul class="mobile-nav__list">
+    <li><a href="#kezdolap">Kezdőlap</a></li>
+    <li><a href="#rolunk">Rólunk</a></li>
+    <li><a href="#mindennapjaink">Mindennapjaink</a></li>
+    <li><a href="#galeria">Galéria</a></li>
+    <li><a href="#hasznos-informaciok">Hasznos információk</a></li>
+    <li><a href="#kapcsolat">Kapcsolat</a></li>
+  </ul>
+  <a href="#kapcsolat" class="btn btn--pink mobile-nav__cta">Érdeklődöm</a>
+  <svg class="mobile-nav__decor" viewBox="0 0 120 90"><use href="#wing-mark"/></svg>
+</nav>
+
+<main id="main-content">
+
+  <!-- ============ HERO ============ -->
+  <section id="kezdolap" class="hero">
+    <div class="wave-divider wave-divider--top" aria-hidden="true"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#FFF9F2" d="M0,60 C180,10 420,90 720,50 C1020,10 1260,90 1440,40 L1440,101 L0,101 Z"/></svg></div>
+    <div class="decor-layer" aria-hidden="true">
+      <svg class="decor decor--sway decor--hide-mobile" style="top:8%; left:2%; width:70px;" viewBox="0 0 60 100"><use href="#leaf-2"/></svg>
+      <svg class="decor butterfly-float pink" style="top:14%; left:46%; width:46px;" viewBox="0 0 100 80"><use href="#butterfly"/></svg>
+      <svg class="decor sparkle-twinkle gold" style="top:30%; left:40%; width:20px;" viewBox="0 0 40 40"><use href="#sparkle"/></svg>
+      <svg class="decor sparkle-twinkle gold decor--hide-mobile" style="top:60%; left:6%; width:16px;" viewBox="0 0 40 40"><use href="#sparkle"/></svg>
+    </div>
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__text-col reveal">
+          <span class="eyebrow"><svg viewBox="0 0 40 36"><use href="#heart-line"/></svg> Egy hely, ahol jó gyereknek lenni</span>
+          <h1 class="hero__title">Biztonságos kezdet<br><em>egy boldogabb holnapért</em></h1>
+          <p class="hero__text">A Tündérkert Családi Bölcsődében szeretetteljes, biztonságos és játékos környezetben támogatjuk a gyermekek fejlődését és első közösségi élményeit.</p>
+          <div class="hero__actions">
+            <a href="#rolunk" class="btn btn--primary">Ismerd meg a Tündérkertet <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+            <a href="#kapcsolat" class="btn btn--secondary">Kapcsolat</a>
+          </div>
+        </div>
+        <div class="hero__media reveal reveal-delay-2">
+          <div class="hero__blob">
+            <img src="assets/images/hero-kert-jatek.webp" alt="Gyerekek a Tündérkert kertjében játszanak, felnőtt felügyelete mellett" width="1800" height="1200" fetchpriority="high">
+          </div>
+          <img class="hero__fairy" src="assets/fairy/tunderkert-fairy.webp" alt="" width="874" height="1100" loading="eager">
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-cue" aria-hidden="true"><span class="line"></span>Görgess</div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#DDE9D5" d="M0,60 C180,10 420,90 720,50 C1020,10 1260,90 1440,40 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ RÓLUNK ============ -->
+  <section id="rolunk" class="content-section content-section--sage">
+    <div class="decor-layer" aria-hidden="true">
+      <svg class="decor decor--hide-mobile" style="top:6%; right:4%; width:90px;" viewBox="0 0 220 90"><use href="#branch"/></svg>
+    </div>
+    <div class="container">
+      <div class="split reveal">
+        <div class="split__media">
+          <div class="split__media-frame">
+            <img src="assets/images/rolunk-mese-olvasas.webp" alt="Gondozónő mesét olvas egy kisgyermeknek, otthonos hangulatban" width="1000" height="1500" loading="lazy">
+          </div>
+          <div class="split__badge"><svg viewBox="0 0 40 36"><use href="#heart-line"/></svg> 2 éve szeretettel</div>
+        </div>
+        <div class="split__text">
+          <span class="eyebrow">A mi kis világunk…</span>
+          <h2 class="section-title">Rólunk</h2>
+          <p>A Tündérkert egy családi légkörű bölcsőde, ahol a gyermekek nem "ellátottak", hanem a mindennapok apró főszereplői. Célunk, hogy a szülők nyugodt szívvel induljanak reggelente, tudva, hogy gyermekük szeretetteljes, figyelmes kezekben van.</p>
+          <p>Kis csoportlétszámmal, tapasztalt, gyermekszerető szakemberekkel és egy csipetnyi mesebeli hangulattal várjuk a hozzánk érkező családokat.</p>
+          <div class="split__cta">
+            <a href="#hasznos-informaciok" class="btn btn--secondary">Tovább rólunk <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#C8ECDD" d="M0,32 C240,90 480,-10 720,40 C960,90 1200,10 1440,48 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ SZEMLÉLET ============ -->
+  <section class="content-section content-section--mint">
+    <div class="decor-layer" aria-hidden="true">
+      <svg class="decor pink decor--hide-mobile" style="bottom:8%; left:4%; width:60px;" viewBox="0 0 40 40"><use href="#blossom"/></svg>
+    </div>
+    <div class="container">
+      <div class="split split--reverse reveal">
+        <div class="split__media">
+          <div class="split__media-frame">
+            <img src="assets/images/szemlelet-fa-jatek.webp" alt="Kisgyermek kezei fa építőjátékkal, közelről" width="1500" height="1000" loading="lazy">
+          </div>
+          <div class="split__badge"><svg viewBox="0 0 40 40"><use href="#sparkle"/></svg> Saját tempóban</div>
+        </div>
+        <div class="split__text">
+          <span class="eyebrow">Mi úgy gondoljuk…</span>
+          <h2 class="section-title">Szemlélet</h2>
+          <p>Hiszünk abban, hogy minden gyermek saját ritmusában fedezi fel a világot. Olyan nyugodt, szeretetteljes környezetet teremtünk, ahol biztonságban lehetnek önmaguk, miközben játékosan fejlődnek és új élményeket szereznek.</p>
+          <p>Nem siettetjük a fejlődést — inkább teret és időt adunk neki, apró, gondosan előkészített lépésekben.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#F5EEDD" d="M0,60 C180,10 420,90 720,50 C1020,10 1260,90 1440,40 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ BESZOKTATÁS ============ -->
+  <section class="content-section content-section--cream-dark">
+    <div class="container">
+      <div class="split reveal">
+        <div class="split__media">
+          <div class="split__media-frame">
+            <img src="assets/images/beszoktatas-egyeni-figyelem.webp" alt="Gondozó egyénileg foglalkozik egy kisgyermekkel, mesekönyvvel" width="1500" height="1001" loading="lazy">
+          </div>
+        </div>
+        <div class="split__text">
+          <span class="eyebrow">Az első lépések…</span>
+          <h2 class="section-title">Beszoktatás</h2>
+          <p>Tudjuk, hogy az első közös hetek a legmeghatóbbak — és néha a legnehezebbek is. Ezért a beszoktatást mindig fokozatosan, a gyermek és a család igényeihez igazítva építjük fel.</p>
+          <p>A szülővel közösen töltött első alkalmaktól kezdve, apró lépésekben haladunk, amíg a kisgyermek magabiztosan, örömmel érkezik hozzánk.</p>
+          <div class="split__cta">
+            <a href="#kapcsolat" class="btn btn--secondary">Kérdésed van? Írj nekünk <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#FFF9F2" d="M0,32 C240,90 480,-10 720,40 C960,90 1200,10 1440,48 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ MINDENNAPJAINK ============ -->
+  <section id="mindennapjaink" class="content-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><svg viewBox="0 0 160 60" style="width:52px;"><use href="#swirl"/></svg></span>
+        <h2 class="section-title">Egy nap a Tündérkertben</h2>
+        <p class="section-lede" style="margin-inline:auto;">A napjaink kiszámíthatóak, mégis mindig tartogatnak új felfedeznivalót — a játéktól a közös étkezéseken át a pihenésig.</p>
+      </div>
+      <div class="day-grid">
+        <div class="day-card reveal">
+          <div class="day-card__media"><img src="assets/images/nap-jatek-felfedezes.webp" alt="Gyermek montessori fajátékokkal játszik" width="1000" height="1500" loading="lazy"></div>
+          <div class="day-card__body">
+            <div class="day-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-play"/></svg></div>
+            <h3>Játék és felfedezés</h3>
+            <p>Szabad játék, mozgás és apró kalandok minden nap.</p>
+          </div>
+        </div>
+        <div class="day-card reveal reveal-delay-1">
+          <div class="day-card__media"><img src="assets/images/nap-etkezes.webp" alt="Kisgyermekek közösen étkeznek az asztalnál" width="1500" height="1001" loading="lazy"></div>
+          <div class="day-card__body">
+            <div class="day-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-meal"/></svg></div>
+            <h3>Közös étkezések</h3>
+            <p>Nyugodt hangulatú, közös étkezési idő, saját tempóban.</p>
+          </div>
+        </div>
+        <div class="day-card reveal reveal-delay-2">
+          <div class="day-card__media"><img src="assets/images/nap-pihenes.webp" alt="Alvó kisgyermek pihenés közben" width="1000" height="1500" loading="lazy"></div>
+          <div class="day-card__body">
+            <div class="day-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-sleep"/></svg></div>
+            <h3>Pihenés</h3>
+            <p>Csendes, otthonos pihenőidő minden kis tündérnek.</p>
+          </div>
+        </div>
+        <div class="day-card reveal reveal-delay-3">
+          <div class="day-card__media"><img src="assets/images/nap-mozgas.webp" alt="Gyerekek mozgásos játékot játszanak a kertben" width="1500" height="998" loading="lazy"></div>
+          <div class="day-card__body">
+            <div class="day-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-run"/></svg></div>
+            <h3>Mozgás</h3>
+            <p>Szabad levegős, mozgásos élmények minden időben.</p>
+          </div>
+        </div>
+        <div class="day-card reveal reveal-delay-4">
+          <div class="day-card__media"><img src="assets/images/nap-kreativ.webp" alt="Kisgyermek kreatív, alkotó foglalkozáson vesz részt" width="1000" height="1500" loading="lazy"></div>
+          <div class="day-card__body">
+            <div class="day-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-paint"/></svg></div>
+            <h3>Kreatív foglalkozások</h3>
+            <p>Festés, gyurmázás, alkotás — a fantázia szabadon szárnyalhat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#F5EEDD" d="M0,60 C180,10 420,90 720,50 C1020,10 1260,90 1440,40 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ MIÉRT MINKET ============ -->
+  <section class="content-section content-section--cream-dark">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Amiben hiszünk</span>
+        <h2 class="section-title">Ami igazán fontos nekünk</h2>
+      </div>
+      <div class="benefit-list">
+        <div class="benefit-card reveal">
+          <div class="benefit-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-users"/></svg></div>
+          <h3>Kis létszámú csoport</h3>
+          <p>Hogy minden gyermekre valóban jusson figyelem és idő.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-heart"/></svg></div>
+          <h3>Személyes figyelem</h3>
+          <p>Odafigyelünk minden gyermek egyéni igényeire és tempójára.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-shield"/></svg></div>
+          <h3>Biztonságos környezet</h3>
+          <p>Átgondolt terek, ahol a gyermekek nyugodtan felfedezhetnek.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-seed"/></svg></div>
+          <h3>Játékos fejlődés</h3>
+          <p>Tanulás játékon, mesén és felfedezésen keresztül.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-4">
+          <div class="benefit-card__icon"><svg viewBox="0 0 48 48"><use href="#icon-home"/></svg></div>
+          <h3>Szeretetteljes mindennapok</h3>
+          <p>Meleg, elfogadó légkör minden egyes nap.</p>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#FFF9F2" d="M0,32 C240,90 480,-10 720,40 C960,90 1200,10 1440,48 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ GALÉRIA ============ -->
+  <section id="galeria" class="content-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Pillanatok</span>
+        <h2 class="section-title">Galéria</h2>
+        <p class="section-lede" style="margin-inline:auto;">Néhány kép a mindennapjainkból — kattints bármelyikre a nagyobb nézethez.</p>
+      </div>
+      <div class="gallery-masonry reveal">
+        <figure class="gallery-item"><img src="assets/images/galeria-01-jatszoszoba.webp" alt="Világos, natúr hangulatú játszószoba" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-02-tanterem.webp" alt="Montessori szemléletű, fa berendezésű terem" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-03-puzzle.webp" alt="Gyermek kirakós játékkal a szőnyegen" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-04-epitokockak.webp" alt="Színes fa építőkockák közelről" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-05-festes.webp" alt="Kreatív sarok festőállvánnyal" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-06-fajatekok.webp" alt="Natúr fa játékfigurák közelről" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-07-etkezes.webp" alt="Gyerekek nevetve étkeznek együtt" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-08-kert-locsolas.webp" alt="Gyerekek a kertben locsolókannával" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+        <figure class="gallery-item"><img src="assets/images/galeria-09-jatekpolc.webp" alt="Pasztell színű montessori játékpolc" loading="lazy"><span class="gallery-item__zoom"><svg viewBox="0 0 24 24"><use href="#icon-zoom"/></svg></span></figure>
+      </div>
+    </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#DDE9D5" d="M0,60 C180,10 420,90 720,50 C1020,10 1260,90 1440,40 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ HASZNOS INFORMÁCIÓK ============ -->
+  <section id="hasznos-informaciok" class="content-section content-section--sage">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Jó, ha tudod</span>
+        <h2 class="section-title">Hasznos információk</h2>
+      </div>
+      <div class="accordion reveal">
+        <div class="accordion-item" data-open="true">
+          <button class="accordion__trigger" aria-expanded="true">
+            <span class="accordion__trigger-left"><svg viewBox="0 0 48 48"><use href="#icon-users"/></svg>Korosztály</span>
+            <span class="accordion__icon"><svg viewBox="0 0 24 24"><use href="#icon-plus"/></svg></span>
+          </button>
+          <div class="accordion__panel"><div class="accordion__panel-inner"><p>0–3 éves kor közötti gyermekeket fogadunk, kis létszámú csoportokban, egyéni fejlődési ütemükhöz igazodva.</p></div></div>
+        </div>
+        <div class="accordion-item" data-open="false">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__trigger-left"><svg viewBox="0 0 48 48"><use href="#icon-clock"/></svg>Nyitvatartás</span>
+            <span class="accordion__icon"><svg viewBox="0 0 24 24"><use href="#icon-plus"/></svg></span>
+          </button>
+          <div class="accordion__panel"><div class="accordion__panel-inner"><p>Nyitvatartásunk: <span class="placeholder">[NYITVATARTÁS]</span>. Egyedi igény esetén keresd elérhetőségeinket.</p></div></div>
+        </div>
+        <div class="accordion-item" data-open="false">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__trigger-left"><svg viewBox="0 0 48 48"><use href="#icon-meal"/></svg>Étkezés</span>
+            <span class="accordion__icon"><svg viewBox="0 0 24 24"><use href="#icon-plus"/></svg></span>
+          </button>
+          <div class="accordion__panel"><div class="accordion__panel-inner"><p>Napi többszöri, változatos és gyermekeknek megfelelő étkezést biztosítunk, egyéni étrendi igényekre (pl. allergia) figyelemmel.</p></div></div>
+        </div>
+        <div class="accordion-item" data-open="false">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__trigger-left"><svg viewBox="0 0 48 48"><use href="#icon-heart"/></svg>Beszoktatás</span>
+            <span class="accordion__icon"><svg viewBox="0 0 24 24"><use href="#icon-plus"/></svg></span>
+          </button>
+          <div class="accordion__panel"><div class="accordion__panel-inner"><p>Fokozatos, a szülővel közösen kezdődő beszoktatási folyamatot alkalmazunk, a gyermek egyéni tempójára figyelve.</p></div></div>
+        </div>
+        <div class="accordion-item" data-open="false">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__trigger-left"><svg viewBox="0 0 48 48"><use href="#icon-basket"/></svg>Mit hozzatok?</span>
+            <span class="accordion__icon"><svg viewBox="0 0 24 24"><use href="#icon-plus"/></svg></span>
+          </button>
+          <div class="accordion__panel"><div class="accordion__panel-inner"><p>Váltóruhát, papucsot, kedvenc alvós játékot, valamint a gyermek egyéni szükségleteihez tartozó eszközöket kérjük hozni. Részletes listát a beszoktatás előtt adunk.</p></div></div>
+        </div>
+        <div class="accordion-item" data-open="false">
+          <button class="accordion__trigger" aria-expanded="false">
+            <span class="accordion__trigger-left"><svg viewBox="0 0 48 48"><use href="#icon-chat"/></svg>Kapcsolattartás</span>
+            <span class="accordion__icon"><svg viewBox="0 0 24 24"><use href="#icon-plus"/></svg></span>
+          </button>
+          <div class="accordion__panel"><div class="accordion__panel-inner"><p>Napi szintű szóbeli visszajelzést adunk átadáskor, emellett elérhetőek vagyunk telefonon és e-mailben is a nap folyamán.</p></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#315A42" d="M0,60 C180,10 420,90 720,50 C1020,10 1260,90 1440,40 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ ERŐS CTA ============ -->
+  <section class="cta-strong">
+    <div class="container cta-strong__inner">
+      <h2 class="reveal">Szeretettel várjuk a kis tündéreket!</h2>
+      <p class="reveal reveal-delay-1">Ha szeretnétek megismerni a Tündérkertet, vagy kérdésetek van a bölcsődei felvétellel kapcsolatban, örömmel válaszolunk.</p>
+      <div class="cta-strong__actions reveal reveal-delay-2">
+        <a href="#kapcsolat" class="btn btn--pink">Vedd fel velünk a kapcsolatot <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></a>
+        <a href="#hasznos-informaciok" class="btn btn--ghost-light">Hasznos információk</a>
+      </div>
+    </div>
+    <img class="cta-strong__fairy decor--hide-mobile" src="assets/fairy/tunderkert-fairy.webp" alt="" width="874" height="1100" loading="lazy">
+    <figure class="cta-strong__photo decor--hide-mobile">
+      <img src="assets/images/cta-margareta.webp" alt="Gyermek kezében margaréta virág" width="1000" height="1500" loading="lazy">
+    </figure>
+    <div class="wave-divider"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path fill="#FFF9F2" d="M0,32 C240,90 480,-10 720,40 C960,90 1200,10 1440,48 L1440,101 L0,101 Z"/></svg></div>
+  </section>
+
+  <!-- ============ KAPCSOLAT ============ -->
+  <section id="kapcsolat" class="content-section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Gyere el hozzánk</span>
+        <h2 class="section-title">Kapcsolat</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="reveal">
+          <ul class="contact-info-list">
+            <li class="contact-info-item">
+              <span class="contact-info-item__icon"><svg viewBox="0 0 48 48"><use href="#icon-phone"/></svg></span>
+              <div><strong>Telefon</strong><span class="placeholder">[TELEFONSZÁM]</span></div>
+            </li>
+            <li class="contact-info-item">
+              <span class="contact-info-item__icon"><svg viewBox="0 0 48 48"><use href="#icon-mail"/></svg></span>
+              <div><strong>E-mail</strong><span class="placeholder">[E-MAIL]</span></div>
+            </li>
+            <li class="contact-info-item">
+              <span class="contact-info-item__icon"><svg viewBox="0 0 48 48"><use href="#icon-pin"/></svg></span>
+              <div><strong>Cím</strong><span class="placeholder">[CÍM]</span></div>
+            </li>
+            <li class="contact-info-item">
+              <span class="contact-info-item__icon"><svg viewBox="0 0 48 48"><use href="#icon-clock"/></svg></span>
+              <div><strong>Nyitvatartás</strong><span class="placeholder">[NYITVATARTÁS]</span></div>
+            </li>
+          </ul>
+          <iframe class="contact-map" src="https://www.openstreetmap.org/export/embed.html?bbox=19.0,47.4,19.2,47.6&layer=mapnik" title="Térkép — helyszín hamarosan pontosítva" loading="lazy" aria-label="Térkép placeholder, a pontos helyszín megadása után frissítendő"></iframe>
+        </div>
+        <form class="contact-form reveal reveal-delay-1" aria-label="Kapcsolatfelvételi űrlap">
+          <div class="form-row">
+            <label for="cf-name">Név</label>
+            <input id="cf-name" name="name" type="text" required autocomplete="name">
+          </div>
+          <div class="form-row">
+            <label for="cf-email">E-mail cím</label>
+            <input id="cf-email" name="email" type="email" required autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="cf-phone">Telefonszám</label>
+            <input id="cf-phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="form-row">
+            <label for="cf-message">Üzenet</label>
+            <textarea id="cf-message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Üzenet küldése <svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></button>
+          <p class="form-note">Az űrlap jelenleg csak demonstrációs célú — a tényleges beküldéshez háttérszolgáltatás (pl. e-mail API) bekötése szükséges.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <svg class="footer-fairy-mark" viewBox="0 0 120 90" aria-hidden="true"><use href="#wing-mark"/></svg>
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#kezdolap" class="footer-logo"><img src="assets/logo/tunderkert-logo.webp" alt="Tündérkert Családi Bölcsőde" width="220" height="65"></a>
+      <p>Szeretetteljes, biztonságos és mesés környezet a legkisebbeknek.</p>
+    </div>
+    <div>
+      <h4>Navigáció</h4>
+      <ul class="footer-nav">
+        <li><a href="#rolunk">Rólunk</a></li>
+        <li><a href="#mindennapjaink">Mindennapjaink</a></li>
+        <li><a href="#galeria">Galéria</a></li>
+        <li><a href="#hasznos-informaciok">Hasznos információk</a></li>
+        <li><a href="#kapcsolat">Kapcsolat</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Elérhetőség</h4>
+      <ul class="footer-contact">
+        <li>Tel.: <span class="placeholder">[TELEFONSZÁM]</span></li>
+        <li>E-mail: <span class="placeholder">[E-MAIL]</span></li>
+        <li>Cím: <span class="placeholder">[CÍM]</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span id="current-year">2026</span> Tündérkert Családi Bölcsőde. Minden jog fenntartva.</span>
+    <span class="footer-bottom-links">
+      <a href="#">Adatkezelési tájékoztató</a>
+      <a href="#">Impresszum</a>
+    </span>
+  </div>
+</footer>
+
+<!-- ============ Lightbox ============ -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Galéria kép nagyítva">
+  <button class="lightbox__nav lightbox__nav--prev" aria-label="Előző kép"><svg viewBox="0 0 24 24"><use href="#icon-arrow" transform="rotate(180 12 12)"/></svg></button>
+  <img src="" alt="">
+  <button class="lightbox__nav lightbox__nav--next" aria-label="Következő kép"><svg viewBox="0 0 24 24"><use href="#icon-arrow"/></svg></button>
+  <button class="lightbox__close" aria-label="Bezárás"><svg viewBox="0 0 24 24"><path d="M6 6 L18 18 M18 6 L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+</div>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
